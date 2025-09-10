@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace BudgetPlanner.Models
 {
-    internal class Category
+    public class Category
     {
-        Guid Id { get; set; }
-        string Name { get; set; }
-        string Color { get; set; }
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Color { get; set; }
 
     }
 }
